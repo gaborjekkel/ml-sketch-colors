@@ -1,0 +1,35 @@
+{
+  "author" : "",
+  "commands" : [
+    {
+      "script" : "Fill.cocoascript",
+      "name" : "Get Fill Color",
+      "shortcut" : "command shift 1",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "my.plugin.fill"
+    },
+    {
+      "script" : "Border.cocoascript",
+      "name" : "Get Border Color",
+      "shortcut" : "command shift 2",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "my.plugin.border"
+    }
+  ],
+  "menu" : {
+    "title" : "ML Color Gather",
+    "items" : [
+      "my.plugin.fill",
+      "my.plugin.border"
+    ]
+  },
+  "identifier" : "com.example.sketch.a1799eb3-7630-405c-ac01-f427b5fc531a",
+  "version" : "1.0",
+  "description" : "",
+  "authorEmail" : "",
+  "name" : "MyPlugin"
+}

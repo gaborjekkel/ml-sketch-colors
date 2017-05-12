@@ -1,0 +1,43 @@
+@import 'common.js';
+
+var onRun = function(context){
+
+  	var selection = context.selection;
+	var doc = context.document;
+
+                
+
+	if(selection.count() > 1 || selection.count() == 0){
+		alertBox("Layer Selection", selection.count() == 0 ? "Please select a layer" : "Select just one layer" ) 
+	}
+	else {
+        var firstSelection = selection[0]
+        var selectedFill = getFill(firstSelection);
+        var fillType = firstSelection.style().fills().firstObject().fillType();
+		
+    
+        if(fillType !== 0 ){
+            alertBox('Warning', 'The selected layer has not just one color')
+        }
+        else
+        {
+        for(var i = 0; i < colorPalette.length; i++){
+				var obj = colorPalette[i];
+                var key = Object.keys(obj).toString();
+                var value = obj[key];
+
+				// if selection has opactity => show selected color + opactiy prop
+
+				
+
+                if(value.toUpperCase() == selectedFill.toUpperCase()) {
+                     doc.showMessage('Fill color: ' + key)
+					 return 
+                }
+			}
+
+			alertBox('Color Commando', 'Be careful, this fill color is not in our color set')
+        }
+	}
+  
+};
