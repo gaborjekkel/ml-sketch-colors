@@ -7,7 +7,7 @@ How to install:
     - double click the ml-sketch-colors.sketchplugin file
     - open Sketch -> Plugins -> it has to be in your listing
     
-![Alt text](/img/pluginList.png?raw=true)
+![Alt text](/img/plugingList.png?raw=true)
 
 Fill color: 
   - select a layer
