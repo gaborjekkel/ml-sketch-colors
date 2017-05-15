@@ -21,12 +21,13 @@ Border color:
   
 ![](/img/borderColor.png)
 
-# in progress
+# In progress
 
+- text color
 - box-shadow
 - find the nearest color -> return the nearest color if selected layer fill/border color is not in our color set
 
-# issue
+# Issue
 
 - missing orangeLight and blueLight from color set
 
