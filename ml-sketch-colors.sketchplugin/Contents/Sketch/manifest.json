@@ -1,5 +1,5 @@
 {
-  "author" : "",
+  "author" : "Gábor Jekkel",
   "commands" : [
     {
       "script" : "Fill.cocoascript",
@@ -21,7 +21,7 @@
     }
   ],
   "menu" : {
-    "title" : "ML Color Gather",
+    "title" : "ML Color Set",
     "items" : [
       "my.plugin.fill",
       "my.plugin.border"
@@ -31,5 +31,5 @@
   "version" : "1.0",
   "description" : "",
   "authorEmail" : "",
-  "name" : "MyPlugin"
+  "name" : "ML Color Set"
 }
