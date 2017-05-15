@@ -2,7 +2,7 @@
 The plugin helps the team get the color name based on the latest color set what is used in our products.
  
 How to install: 
-- download the zip
+- [download](https://github.com/gaborjekkel/ml-sketch-colors/archive/master.zip) the zip
 - close Sketch
 - double click the ml-sketch-colors.sketchplugin file
 - open Sketch -> Plugins -> it has to be in your listing
