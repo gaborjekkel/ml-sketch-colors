@@ -13,14 +13,13 @@ Fill color:
   - select a layer
   - cmd+shift+1
   
-![](/img/fillColor.png =300X200)
+![](/img/fillColor.png)
   
 Border color: 
   - select a layer
   - cmd+shift+2
   
 ![](/img/borderColor.png)
-<!-- .element style="width: 300px; height: 200px" -->
 
 # in progress
 
