@@ -13,9 +13,13 @@ Fill color:
   - select a layer
   - cmd+shift+1
   
+![Alt text](/img/fillColor.png?raw=true)
+  
 Border color: 
   - select a layer
   - cmd+shift+2
+  
+![Alt text](/img/borderColor.png?raw=true)
 
 # in progress
 
