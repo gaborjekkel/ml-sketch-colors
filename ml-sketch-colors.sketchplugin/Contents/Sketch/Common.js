@@ -30,7 +30,7 @@ var colorPalette = [
     { blue: '00AAFF' },
     { purple: 'A47EE6' },
     { brown: '806040' }
-	];
+];
 
 
 
