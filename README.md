@@ -6,20 +6,20 @@ How to install:
 - close Sketch
 - double click the ml-sketch-colors.sketchplugin file
 - open Sketch -> Plugins -> it has to be in your listing
-    
-![Alt text](/img/plugingList.png?raw=true)
+  
+![](/img/plugingList.png)  
 
 Fill color: 
   - select a layer
   - cmd+shift+1
   
-![Alt text](/img/fillColor.png?raw=true)
+![](/img/fillColor.png=300x200)
   
 Border color: 
   - select a layer
   - cmd+shift+2
   
-![Alt text](/img/borderColor.png?raw=true)
+![](/img/borderColor.png=300x200)
 
 # in progress
 
